@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377B25A6EA27917C9F6EB8D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3441DF6F49A2B17AAE7A4554 /* libPods.a */; };
+		E1BD0DAD19EAA77000E845AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DAC19EAA77000E845AB /* main.m */; };
+		E1BD0DB019EAA77000E845AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DAF19EAA77000E845AB /* AppDelegate.m */; };
+		E1BD0DB319EAA77000E845AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DB219EAA77000E845AB /* ViewController.m */; };
+		E1BD0DB619EAA77000E845AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BD0DB419EAA77000E845AB /* Main.storyboard */; };
+		E1BD0DB819EAA77000E845AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BD0DB719EAA77000E845AB /* Images.xcassets */; };
+		E1BD0DBB19EAA77000E845AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BD0DB919EAA77000E845AB /* LaunchScreen.xib */; };
+		E1BD0DC719EAA77000E845AB /* FMDB_encryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DC619EAA77000E845AB /* FMDB_encryptTests.m */; };
+		E1D55A7119F3ABAA00159F72 /* DBManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D55A7019F3ABAA00159F72 /* DBManger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1BD0DC119EAA77000E845AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BD0D9F19EAA77000E845AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BD0DA619EAA77000E845AB;
+			remoteInfo = "FMDB-encrypt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3441DF6F49A2B17AAE7A4554 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		396BED44DED2EA696DA356B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E1BD0DA719EAA77000E845AB /* FMDB-encrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB-encrypt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BD0DAB19EAA77000E845AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BD0DAC19EAA77000E845AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1BD0DAE19EAA77000E845AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1BD0DAF19EAA77000E845AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1BD0DB119EAA77000E845AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1BD0DB219EAA77000E845AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1BD0DB519EAA77000E845AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1BD0DB719EAA77000E845AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1BD0DBA19EAA77000E845AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E1BD0DC019EAA77000E845AB /* FMDB-encryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMDB-encryptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BD0DC519EAA77000E845AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BD0DC619EAA77000E845AB /* FMDB_encryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDB_encryptTests.m; sourceTree = "<group>"; };
+		E1D55A6F19F3ABAA00159F72 /* DBManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManger.h; sourceTree = "<group>"; };
+		E1D55A7019F3ABAA00159F72 /* DBManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManger.m; sourceTree = "<group>"; };
+		FCF360A9F07ADC0E874C8C00 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BD0DA419EAA77000E845AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377B25A6EA27917C9F6EB8D2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BD0DBD19EAA77000E845AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D048121BB556A075AF6FF4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCF360A9F07ADC0E874C8C00 /* Pods.debug.xcconfig */,
+				396BED44DED2EA696DA356B3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEC7CB472C6F9D1CF6B116EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3441DF6F49A2B17AAE7A4554 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1BD0D9E19EAA77000E845AB = {
+			isa = PBXGroup;
+			children = (
+				E1BD0DA919EAA77000E845AB /* FMDB-encrypt */,
+				E1BD0DC319EAA77000E845AB /* FMDB-encryptTests */,
+				E1BD0DA819EAA77000E845AB /* Products */,
+				0D048121BB556A075AF6FF4C /* Pods */,
+				AEC7CB472C6F9D1CF6B116EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BD0DA819EAA77000E845AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD0DA719EAA77000E845AB /* FMDB-encrypt.app */,
+				E1BD0DC019EAA77000E845AB /* FMDB-encryptTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BD0DA919EAA77000E845AB /* FMDB-encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD0DAE19EAA77000E845AB /* AppDelegate.h */,
+				E1BD0DAF19EAA77000E845AB /* AppDelegate.m */,
+				E1BD0DB119EAA77000E845AB /* ViewController.h */,
+				E1BD0DB219EAA77000E845AB /* ViewController.m */,
+				E1D55A6F19F3ABAA00159F72 /* DBManger.h */,
+				E1D55A7019F3ABAA00159F72 /* DBManger.m */,
+				E1BD0DB419EAA77000E845AB /* Main.storyboard */,
+				E1BD0DB719EAA77000E845AB /* Images.xcassets */,
+				E1BD0DB919EAA77000E845AB /* LaunchScreen.xib */,
+				E1BD0DAA19EAA77000E845AB /* Supporting Files */,
+			);
+			path = "FMDB-encrypt";
+			sourceTree = "<group>";
+		};
+		E1BD0DAA19EAA77000E845AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD0DAB19EAA77000E845AB /* Info.plist */,
+				E1BD0DAC19EAA77000E845AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1BD0DC319EAA77000E845AB /* FMDB-encryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD0DC619EAA77000E845AB /* FMDB_encryptTests.m */,
+				E1BD0DC419EAA77000E845AB /* Supporting Files */,
+			);
+			path = "FMDB-encryptTests";
+			sourceTree = "<group>";
+		};
+		E1BD0DC419EAA77000E845AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD0DC519EAA77000E845AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BD0DA619EAA77000E845AB /* FMDB-encrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BD0DCA19EAA77000E845AB /* Build configuration list for PBXNativeTarget "FMDB-encrypt" */;
+			buildPhases = (
+				ADC1EE177C600A497437F638 /* Check Pods Manifest.lock */,
+				E1BD0DA319EAA77000E845AB /* Sources */,
+				E1BD0DA419EAA77000E845AB /* Frameworks */,
+				E1BD0DA519EAA77000E845AB /* Resources */,
+				0246DA7588DEC63F34B91445 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMDB-encrypt";
+			productName = "FMDB-encrypt";
+			productReference = E1BD0DA719EAA77000E845AB /* FMDB-encrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1BD0DBF19EAA77000E845AB /* FMDB-encryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BD0DCD19EAA77000E845AB /* Build configuration list for PBXNativeTarget "FMDB-encryptTests" */;
+			buildPhases = (
+				E1BD0DBC19EAA77000E845AB /* Sources */,
+				E1BD0DBD19EAA77000E845AB /* Frameworks */,
+				E1BD0DBE19EAA77000E845AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BD0DC219EAA77000E845AB /* PBXTargetDependency */,
+			);
+			name = "FMDB-encryptTests";
+			productName = "FMDB-encryptTests";
+			productReference = E1BD0DC019EAA77000E845AB /* FMDB-encryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BD0D9F19EAA77000E845AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					E1BD0DA619EAA77000E845AB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E1BD0DBF19EAA77000E845AB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E1BD0DA619EAA77000E845AB;
+					};
+				};
+			};
+			buildConfigurationList = E1BD0DA219EAA77000E845AB /* Build configuration list for PBXProject "FMDB-encrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BD0D9E19EAA77000E845AB;
+			productRefGroup = E1BD0DA819EAA77000E845AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BD0DA619EAA77000E845AB /* FMDB-encrypt */,
+				E1BD0DBF19EAA77000E845AB /* FMDB-encryptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BD0DA519EAA77000E845AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BD0DB619EAA77000E845AB /* Main.storyboard in Resources */,
+				E1BD0DBB19EAA77000E845AB /* LaunchScreen.xib in Resources */,
+				E1BD0DB819EAA77000E845AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BD0DBE19EAA77000E845AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0246DA7588DEC63F34B91445 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC1EE177C600A497437F638 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BD0DA319EAA77000E845AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BD0DB319EAA77000E845AB /* ViewController.m in Sources */,
+				E1D55A7119F3ABAA00159F72 /* DBManger.m in Sources */,
+				E1BD0DB019EAA77000E845AB /* AppDelegate.m in Sources */,
+				E1BD0DAD19EAA77000E845AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BD0DBC19EAA77000E845AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BD0DC719EAA77000E845AB /* FMDB_encryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1BD0DC219EAA77000E845AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BD0DA619EAA77000E845AB /* FMDB-encrypt */;
+			targetProxy = E1BD0DC119EAA77000E845AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1BD0DB419EAA77000E845AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BD0DB519EAA77000E845AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1BD0DB919EAA77000E845AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BD0DBA19EAA77000E845AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1BD0DC819EAA77000E845AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1BD0DC919EAA77000E845AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1BD0DCB19EAA77000E845AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF360A9F07ADC0E874C8C00 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "FMDB-encrypt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1BD0DCC19EAA77000E845AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396BED44DED2EA696DA356B3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "FMDB-encrypt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1BD0DCE19EAA77000E845AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMDB-encryptTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB-encrypt.app/FMDB-encrypt";
+			};
+			name = Debug;
+		};
+		E1BD0DCF19EAA77000E845AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMDB-encryptTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB-encrypt.app/FMDB-encrypt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BD0DA219EAA77000E845AB /* Build configuration list for PBXProject "FMDB-encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BD0DC819EAA77000E845AB /* Debug */,
+				E1BD0DC919EAA77000E845AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BD0DCA19EAA77000E845AB /* Build configuration list for PBXNativeTarget "FMDB-encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BD0DCB19EAA77000E845AB /* Debug */,
+				E1BD0DCC19EAA77000E845AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BD0DCD19EAA77000E845AB /* Build configuration list for PBXNativeTarget "FMDB-encryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BD0DCE19EAA77000E845AB /* Debug */,
+				E1BD0DCF19EAA77000E845AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BD0D9F19EAA77000E845AB /* Project object */;
+}
