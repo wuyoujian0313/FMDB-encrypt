@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		377B25A6EA27917C9F6EB8D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3441DF6F49A2B17AAE7A4554 /* libPods.a */; };
+		6689BD479CCD14903BEBE5C7 /* libPods-FMDB-encrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B8D45C5F011F4AD984D894 /* libPods-FMDB-encrypt.a */; };
 		E1BD0DAD19EAA77000E845AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DAC19EAA77000E845AB /* main.m */; };
 		E1BD0DB019EAA77000E845AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DAF19EAA77000E845AB /* AppDelegate.m */; };
 		E1BD0DB319EAA77000E845AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BD0DB219EAA77000E845AB /* ViewController.m */; };
@@ -29,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3441DF6F49A2B17AAE7A4554 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		396BED44DED2EA696DA356B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		0F6D7C63BF7467F785CCDFA7 /* Pods-FMDB-encrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB-encrypt.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB-encrypt/Pods-FMDB-encrypt.release.xcconfig"; sourceTree = "<group>"; };
+		80B8D45C5F011F4AD984D894 /* libPods-FMDB-encrypt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB-encrypt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC3328E43D789185C6B5A6 /* Pods-FMDB-encrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB-encrypt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB-encrypt/Pods-FMDB-encrypt.debug.xcconfig"; sourceTree = "<group>"; };
 		E1BD0DA719EAA77000E845AB /* FMDB-encrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB-encrypt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BD0DAB19EAA77000E845AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1BD0DAC19EAA77000E845AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		E1BD0DC619EAA77000E845AB /* FMDB_encryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDB_encryptTests.m; sourceTree = "<group>"; };
 		E1D55A6F19F3ABAA00159F72 /* DBManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManger.h; sourceTree = "<group>"; };
 		E1D55A7019F3ABAA00159F72 /* DBManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManger.m; sourceTree = "<group>"; };
-		FCF360A9F07ADC0E874C8C00 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377B25A6EA27917C9F6EB8D2 /* libPods.a in Frameworks */,
+				6689BD479CCD14903BEBE5C7 /* libPods-FMDB-encrypt.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,21 +68,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D048121BB556A075AF6FF4C /* Pods */ = {
+		208F61924EF3E8314A09FDA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FCF360A9F07ADC0E874C8C00 /* Pods.debug.xcconfig */,
-				396BED44DED2EA696DA356B3 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AEC7CB472C6F9D1CF6B116EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3441DF6F49A2B17AAE7A4554 /* libPods.a */,
+				80B8D45C5F011F4AD984D894 /* libPods-FMDB-encrypt.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4CCB6E2FED28D6E8A43052C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC3328E43D789185C6B5A6 /* Pods-FMDB-encrypt.debug.xcconfig */,
+				0F6D7C63BF7467F785CCDFA7 /* Pods-FMDB-encrypt.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E1BD0D9E19EAA77000E845AB = {
@@ -91,8 +91,8 @@
 				E1BD0DA919EAA77000E845AB /* FMDB-encrypt */,
 				E1BD0DC319EAA77000E845AB /* FMDB-encryptTests */,
 				E1BD0DA819EAA77000E845AB /* Products */,
-				0D048121BB556A075AF6FF4C /* Pods */,
-				AEC7CB472C6F9D1CF6B116EC /* Frameworks */,
+				A4CCB6E2FED28D6E8A43052C /* Pods */,
+				208F61924EF3E8314A09FDA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,11 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1BD0DCA19EAA77000E845AB /* Build configuration list for PBXNativeTarget "FMDB-encrypt" */;
 			buildPhases = (
-				ADC1EE177C600A497437F638 /* Check Pods Manifest.lock */,
+				EFCDBF213C2FF72B5D922FEE /* [CP] Check Pods Manifest.lock */,
 				E1BD0DA319EAA77000E845AB /* Sources */,
 				E1BD0DA419EAA77000E845AB /* Frameworks */,
 				E1BD0DA519EAA77000E845AB /* Resources */,
-				0246DA7588DEC63F34B91445 /* Copy Pods Resources */,
+				B96A89FEB062A6EAC69F8DFB /* [CP] Embed Pods Frameworks */,
+				2C2A01997324B6C7D4524D28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,29 +247,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0246DA7588DEC63F34B91445 /* Copy Pods Resources */ = {
+		2C2A01997324B6C7D4524D28 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB-encrypt/Pods-FMDB-encrypt-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADC1EE177C600A497437F638 /* Check Pods Manifest.lock */ = {
+		B96A89FEB062A6EAC69F8DFB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB-encrypt/Pods-FMDB-encrypt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCDBF213C2FF72B5D922FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +422,7 @@
 		};
 		E1BD0DCB19EAA77000E845AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCF360A9F07ADC0E874C8C00 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CEDC3328E43D789185C6B5A6 /* Pods-FMDB-encrypt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -421,7 +437,7 @@
 		};
 		E1BD0DCC19EAA77000E845AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 396BED44DED2EA696DA356B3 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0F6D7C63BF7467F785CCDFA7 /* Pods-FMDB-encrypt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (

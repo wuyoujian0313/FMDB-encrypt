@@ -1,4 +1,8 @@
 platform :ios, '6.0'
 
+target "FMDB-encrypt" do
+
 pod 'FMDB'
-pod 'SQLCipher'
+pod 'FMDB/SQLCipher'
+
+end

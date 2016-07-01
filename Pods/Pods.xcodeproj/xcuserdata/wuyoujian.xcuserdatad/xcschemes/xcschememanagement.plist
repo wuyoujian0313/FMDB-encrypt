@@ -4,35 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-FMDB.xcscheme</key>
+		<key>FMDB.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-SQLCipher.xcscheme</key>
+		<key>Pods-FMDB-encrypt.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>SQLCipher.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33D58398536A55EDF021260C</key>
+		<key>5CCC59A3DA32DC4436DE29C5D16C0243</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E4E1D041614E5B83BC3E1F5</key>
+		<key>D638B9D6EB1F12C419CB5BCB69120921</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D39F79AE6875FAE0F0D73798</key>
+		<key>E7E981D5CA53B2A398DEF748C2448712</key>
 		<dict>
 			<key>primary</key>
 			<true/>
